@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UITEST2</string>
+    <string name="input_your_name">이름을 입력하세요.</string>
+    <string name="dog">개</string>
+    <string name="cat">고양이</string>
+    <string name="button">버튼</string>
+    <string name="android_wiki">안드로이드(영어: Android)는 스마트폰, 태블릿 PC 같은 터치스크린 모바일 장치 용으로 디자인된 운영체제이자 수정된 리눅스 커널 버전을 비롯한 오픈 소스 소프트웨어에 기반을 둔 모바일 운영 체제다.</string>
+</resources>

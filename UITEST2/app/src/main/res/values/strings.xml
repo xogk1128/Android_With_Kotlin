@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">UITEST2</string>
+    <string name="android_wiki">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam turpis leo, ullamcorper et malesuada vitae, consequat at enim. Sed consequat lorem faucibus venenatis auctor.</string>
+    <string name="input_your_name">Input your name</string>
+    <string name="dog">Dog</string>
+    <string name="cat">Cat</string>
+    <string name="button">Button</string>
+</resources>

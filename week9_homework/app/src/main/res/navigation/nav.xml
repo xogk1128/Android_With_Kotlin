@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav"
+    app:startDestination="@id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.example.myapplication.home"
+        android:label="home" >
+        <action
+            android:id="@+id/action_home_to_nav1"
+            app:destination="@id/nav1" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav1"
+        android:name="com.example.myapplication.nav1"
+        android:label="nav1" >
+        <action
+            android:id="@+id/action_nav1_to_nav2"
+            app:destination="@id/nav2" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav2"
+        android:name="com.example.myapplication.nav2"
+        android:label="nav2" >
+        <action
+            android:id="@+id/action_nav2_to_home"
+            app:destination="@id/home"
+            app:popUpTo="@id/home"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

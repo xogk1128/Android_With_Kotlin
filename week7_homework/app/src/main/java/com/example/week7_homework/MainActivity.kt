@@ -26,9 +26,9 @@ class MainActivity : AppCompatActivity() {
             val value = findViewById<EditText>(R.id.editText).text.toString().toInt()
             // 인텐트에 내용 담기
             intent.putExtra("userdata", value)
-            startActivity(intent)
+            //startActivity(intent)
             // seconActivity 시작하고 setResult한 결과를 callback으로 받아올 수 있게됨
-            //activityResult.launch(intent)
+            activityResult.launch(intent)
         }
     }
 

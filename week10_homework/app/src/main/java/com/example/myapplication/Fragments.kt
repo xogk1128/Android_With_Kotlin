@@ -42,3 +42,10 @@ class Page2 : Fragment(R.layout.fragment_layout){
         view.findViewById<TextView>(R.id.textView).text = "Page2Fragment"
     }
 }
+
+class Call : Fragment(R.layout.fragment_layout){
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        view.findViewById<TextView>(R.id.textView).text = "Page2Fragment"
+    }
+}

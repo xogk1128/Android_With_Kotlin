@@ -13,4 +13,7 @@
     <item
         android:id="@+id/myDialogFragment"
         android:title="Dialog" />
+    <item
+        android:id="@+id/callAction"
+        android:title="Calll" />
 </menu>
